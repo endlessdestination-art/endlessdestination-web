@@ -2,6 +2,7 @@
 // Instagram and Email also have direct hrefs in index.html,
 // so they work even if JavaScript is disabled or fails to load.
 const LINKS = {
+  happyhorse: 'https://www.happyhorse.com/'
   pixverse: 'https://motivaiprivatelimited.sjv.io/qWG9Dy',
   domoai: 'https://domoaipteltd.pxf.io/L0Y6g0',
   instagram: 'https://www.instagram.com/endlessdestination.art/',
