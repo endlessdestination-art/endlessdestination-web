@@ -2,8 +2,8 @@
 // Instagram and Email also have direct hrefs in index.html,
 // so they work even if JavaScript is disabled or fails to load.
 const LINKS = {
-  pixverse: 'https://pixverse.ai/',
-  domoai: 'https://www.domoai.app/',
+  pixverse: 'https://motivaiprivatelimited.sjv.io/qWG9Dy',
+  domoai: 'https://domoaipteltd.pxf.io/L0Y6g0',
   instagram: 'https://www.instagram.com/endlessdestination.art/',
   email: 'mailto:endlessdestination.art@gmail.com?subject=Endless%20Destination%20contact'
 };
