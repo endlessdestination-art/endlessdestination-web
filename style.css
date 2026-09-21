@@ -20,3 +20,40 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;background:lin
   text-shadow:0 0 14px rgba(255,154,56,.35);
 }
 @media(max-width:520px){.page{padding-top:38px}.link-card{min-height:78px;padding:12px 14px}.icon-box{width:46px;height:46px;flex-basis:46px}.icon-box img{width:27px;height:27px}.intro{font-size:12px}.divider i{width:55px}}
+/* SOCIAL ICONS */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-top: 22px;
+  margin-bottom: 8px;
+}
+
+.social-icons a {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.email-symbol {
+  font-size: 25px;
+  line-height: 1;
+  color: inherit;
+}
