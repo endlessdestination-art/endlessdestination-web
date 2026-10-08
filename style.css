@@ -1213,3 +1213,121 @@ footer {
       9px;
   }
 }
+
+/* =====================================================
+   FABIO FEATURE
+   ===================================================== */
+
+.fabio-feature {
+  position: relative;
+  width: 100%;
+  margin: 70px auto 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Imagen más pequeña */
+
+.fabio-image {
+  position: relative;
+  width: min(58%, 420px);
+  z-index: 2;
+}
+
+.fabio-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Overlay */
+
+.fabio-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 3;
+}
+
+/* WELCOME TO THE UNKNOWN */
+
+.fabio-content {
+  position: absolute;
+  top: -42px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  z-index: 5;
+  pointer-events: none;
+}
+
+.fabio-label {
+  font-family: "Cinzel", serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: #f0dfd0;
+  white-space: nowrap;
+
+  text-shadow:
+    0 2px 12px rgba(0, 0, 0, 0.95),
+    0 0 18px rgba(216, 107, 39, 0.22);
+}
+
+.fabio-line {
+  width: 50px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #d86b27
+  );
+}
+
+.fabio-line:last-child {
+  background: linear-gradient(
+    90deg,
+    #d86b27,
+    transparent
+  );
+}
+
+
+/* =====================================================
+   FABIO — MOBILE
+   ===================================================== */
+
+@media (max-width: 600px) {
+
+  .fabio-feature {
+    margin: 55px auto 70px;
+  }
+
+  .fabio-image {
+    width: 72%;
+    max-width: 320px;
+  }
+
+  .fabio-content {
+    top: -35px;
+    gap: 8px;
+  }
+
+  .fabio-label {
+    font-size: 9px;
+    letter-spacing: 2.5px;
+  }
+
+  .fabio-line {
+    width: 25px;
+  }
+}
